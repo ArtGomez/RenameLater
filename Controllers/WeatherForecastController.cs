@@ -22,5 +22,11 @@ namespace RenameLater.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("/Get")]
+        public string GetString()
+        {
+            return "This new endpoint works!";
+        }
     }
 }
